@@ -9,7 +9,7 @@ import (
 	"github.com/LIUYAN-0626/test-filecoin-project-sector-storage/ffiwrapper"
 	"github.com/filecoin-project/specs-actors/actors/abi"
 
-	nr "github.com/filecoin-project/storage-fsm/lib/nullreader"
+	nr "github.com/LIUYAN-0626/test-storage-fsm/lib/nullreader"
 )
 
 func (m *Sealing) pledgeReader(size abi.UnpaddedPieceSize) io.Reader {
